@@ -176,7 +176,7 @@
       .carousel-inner {
         .carousel-item {
           img {
-              height: 50vh;
+            height: 50vh;
           }
           .carousel-caption {
             h1 {
@@ -459,7 +459,7 @@
             opacity: 0;
             .gallery__hover__btn {
               position: absolute;
-              top: 10%;
+              top: 45%;
               left: 45%;
               transition: all 0.3s 0.2s;
               a {
@@ -471,11 +471,11 @@
             }
             .gallery__hover__content {
               position: absolute;
-              bottom: -10%;
-              left: 10%;
+              bottom: 10%;
+              left: 30%;
               transition: all 0.3s 0.2s;
               h4 {
-                margin-bottom: 5px;
+                margin-bottom: 25px;
                 letter-spacing: 4px;
                 font-size: 14px;
                 font-weight: normal;
@@ -488,7 +488,6 @@
                 }
               }
               p {
-                padding-top: 30px;
                 font-size: 12px;
                 letter-spacing: 3px;
                 a {
@@ -508,7 +507,7 @@
                 top: 30%;
               }
               .gallery__hover__content {
-                bottom: 10%;
+                bottom: 30%;
               }
             }
           }
@@ -516,7 +515,7 @@
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .portfolio__container {
       .portfolio__title {
         h3 {
@@ -535,9 +534,12 @@
                 left: 25%;
                 h4 {
                   font-size: 13px;
+                  margin-bottom: 10px;
                 }
                 p {
-                  font-size: 11px;
+                  a {
+                    font-size: 11px;
+                  }
                 }
               }
             }
@@ -589,6 +591,7 @@
               font-size: 36px;
               color: #323232;
               padding-bottom: 30px;
+              transition: all 0.5s;
             }
             h4 {
               margin-bottom: 20px;
@@ -606,6 +609,7 @@
             .service__detail__item {
               i {
                 color: #d6b161;
+                transform: rotate(360deg);
               }
               h4 {
                 color: white;

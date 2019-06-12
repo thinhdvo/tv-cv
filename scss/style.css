@@ -579,7 +579,7 @@
 
 .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__btn {
   position: absolute;
-  top: 10%;
+  top: 45%;
   left: 45%;
   -webkit-transition: all 0.3s 0.2s;
   transition: all 0.3s 0.2s;
@@ -594,14 +594,14 @@
 
 .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content {
   position: absolute;
-  bottom: -10%;
-  left: 10%;
+  bottom: 10%;
+  left: 30%;
   -webkit-transition: all 0.3s 0.2s;
   transition: all 0.3s 0.2s;
 }
 
 .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content h4 {
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   letter-spacing: 4px;
   font-size: 14px;
   font-weight: normal;
@@ -617,7 +617,6 @@
 }
 
 .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content p {
-  padding-top: 30px;
   font-size: 12px;
   letter-spacing: 3px;
 }
@@ -640,10 +639,10 @@
 }
 
 .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product:hover .gallery_product__hover .gallery__hover__content {
-  bottom: 10%;
+  bottom: 30%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .portfolio .portfolio__container .portfolio__title h3 {
     font-size: 18px;
   }
@@ -656,8 +655,9 @@
   }
   .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content h4 {
     font-size: 13px;
+    margin-bottom: 10px;
   }
-  .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content p {
+  .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product .gallery_product__hover .gallery__hover__content p a {
     font-size: 11px;
   }
   .portfolio .portfolio__container .portfolio__content .portfolio__content__detail .gallery_product:hover .gallery_product__hover .gallery__hover__btn {
@@ -706,6 +706,8 @@
   font-size: 36px;
   color: #323232;
   padding-bottom: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .service .container .service__detail .row .col-md-4 .service__detail__item h4 {
@@ -726,6 +728,8 @@
 
 .service .container .service__detail .row .col-md-4:hover .service__detail__item i {
   color: #d6b161;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .service .container .service__detail .row .col-md-4:hover .service__detail__item h4 {
