@@ -7,6 +7,7 @@
     max-width: 750px;
     margin: 0 !important;
     padding: 0 !important;
+    overflow: hidden;
   }
 }
 
@@ -176,7 +177,7 @@
 
 @media screen and (max-width: 768px) {
   .carousel__container .carousel .carousel-inner .carousel-item img {
-    max-width: 100%;
+    width: 100%;
     max-height: 400px;
   }
   .carousel__container .carousel .carousel-inner .carousel-item .carousel-caption h1 {
@@ -963,5 +964,11 @@
   z-index: 99;
   height: 80px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .goToTop img {
+    max-height: 60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
