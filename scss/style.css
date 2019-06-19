@@ -955,16 +955,12 @@
   color: white;
 }
 
-#goToTop {
-  position: relative;
-}
-
-#goToTop img {
+.goToTop img {
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  height: 100px;
-  display: none;
+  height: 80px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

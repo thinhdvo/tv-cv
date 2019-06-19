@@ -662,8 +662,7 @@
         color: #7e7e7e;
       }
     }
-    .video__content {
-    }
+    
     .switch {
       position: relative;
       display: inline-block;
@@ -699,6 +698,7 @@
       }
     }
   }
+  
   @media screen and (max-width: 768px) {
     .container {
       .video__title {
@@ -711,6 +711,7 @@
       }
     }
   }
+  
 }
 
 .contactform {
@@ -833,14 +834,13 @@
   }
 }
 
-#goToTop {
-  position: relative;
+.goToTop {
   img {
     position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    height: 100px;
-    display: none;
+    height: 80px;
+    cursor: pointer;
   }
 }

@@ -77,7 +77,6 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 // On / Off function
 var video = document.getElementById("myVideo");
-var slider = doc.getElementById("mySlider");
 function onOff(){
     if(video.paused){
         video.play()
@@ -90,17 +89,19 @@ function onOff(){
 // 
 $(window).scroll(function() {
     var height = $(window).scrollTop();
-    if (height > 100) {
+    if (height > 100 && height < 4300) {
         $('#goToTop').fadeIn();
-    } else {
+    }
+    else {
         $('#goToTop').fadeOut();
     }
 });
 $(document).ready(function() {
-    $("#goToTop").click(function(event) {
+    $("#goToTop, #btnToTop").click(function(event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
 
 });
+
