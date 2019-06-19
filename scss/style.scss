@@ -176,7 +176,8 @@
       .carousel-inner {
         .carousel-item {
           img {
-            height: 50vh;
+            max-width: 100%;
+            max-height: 400px;
           }
           .carousel-caption {
             h1 {
