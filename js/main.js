@@ -86,7 +86,7 @@ function onOff(){
     }
 }
 
-// 
+// show / hint to top button
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100 && height < 4300) {
